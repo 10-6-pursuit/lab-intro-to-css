@@ -30,6 +30,10 @@ body img {
   border-radius: 50%;
 }
 
+body img:hover {
+  box-shadow: 5px 5px 10px darkgray;
+}
+
 ul, ol {
   padding-left: 30px; 
 }
