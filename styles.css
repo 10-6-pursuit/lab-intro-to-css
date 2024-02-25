@@ -8,11 +8,17 @@ body {
 }
 
 h1 {
+  width: 50%;
   font-family: "Fantasy", Papyrus;
   color: purple;
   font-size: 30px;
   text-transform: uppercase;
   text-shadow: 3px 3px 5px rgb(251, 28, 251);
+}
+
+h1:hover{
+  width: 100%;
+  text-align: right;
 }
 
 
