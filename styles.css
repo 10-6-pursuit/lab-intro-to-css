@@ -30,10 +30,24 @@ p {
   padding: 20px 0;
 }
 
+.avatar-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+  animation: rotation 30s infinite linear;
+}
+
 body img {
   display: block;
   height: 200px;
-  margin: 0 auto;
   border: 2px solid black;
   border-radius: 50%;
   transition: all .2s ease-in-out;
@@ -42,6 +56,25 @@ body img {
 body img:hover {
   box-shadow: 5px 5px 10px rgb(120, 120, 120);
   transform: scale(1.1);
+}
+
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid red;
+  animation: rotation 30s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 ul, ol {
