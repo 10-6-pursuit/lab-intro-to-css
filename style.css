@@ -33,6 +33,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
+    animation: shake 0.1s linear 100;
 }
 h3 {
     text-decoration: underline;
@@ -42,4 +43,61 @@ p {
     padding-bottom: 20px;
     font-size: 25px;
     font-family: monospace;
+}
+.left-letter {
+    position: relative;
+    animation: slide 1s ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes slide {
+    0% {
+        right: 0;
+    } 
+    100% {
+        right: 100px;
+    }
+}
+.top-letter {
+    position: relative;
+    animation: top 2s ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes top {
+    0% {
+        top: 0;
+    } 
+    100% {
+        top: 100px;
+    }
+}
+.bottom-letter {
+    position: relative;
+    animation: bottom 3s ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes bottom {
+    0% {
+        bottom: 0;
+    } 
+    100% {
+        bottom: 100px;
+    }
+}
+@keyframes shake{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-2px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    
 }
