@@ -1,0 +1,68 @@
+
+body{
+    font-family: sans-serif;
+}
+h1{
+    font-family: fantasy;
+    color: purple;
+    font-size: 30;
+}
+h3{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    color:darkmagenta;
+    text-align: center;
+}
+p{  
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ol{
+    font-weight: bold;
+}
+.skills{
+
+    text-align: left;
+}
+
+li{ padding:5px;
+    background-color: lightpink;
+    color:blue;
+    text-align: center;
+    border-color: red ;
+    border-width: 1px;
+    padding-left: 30px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 25px;
+    list-style: none;
+}
+.pic{
+    text-align: center;
+}
+img{height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+
+}
+
+.social{
+    font-weight: bold;
+}
+.email{
+    font-weight: bold;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hardestbug{
+    text-align: left;
+}
+.email:hover,.github:hover,.linkedin:hover,.angellist:hover{
+    color: green;
+}
+.contact{
+    font-style: italic;
+    color: darkcyan;
+}
