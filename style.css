@@ -1,15 +1,26 @@
 body {
   font-family: sans-serif;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(102, 116, 236) 0%,
+    rgb(50, 231, 219) 90%
+  );
 }
 
 h1 {
   font-family: 'Papyrus';
   color: purple;
   font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  color: #fff;
 }
 
 h3 {
   text-decoration: underline;
+  color: #fff;
 }
 
 p {
@@ -20,6 +31,8 @@ img {
   display: block;
   margin: auto;
   height: 200px;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 0.75rem #45c5e1);
 }
 
 ul {
@@ -28,7 +41,7 @@ ul {
 }
 
 ul,
-li {
+ol {
   padding-left: 30px;
 }
 
@@ -39,4 +52,19 @@ li {
   border-radius: 20px;
   color: blue;
   background-color: #ffb6c2;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 300;
+  text-shadow: 2px 1px #45c5e1;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.socials li {
+  padding: 5px;
 }
