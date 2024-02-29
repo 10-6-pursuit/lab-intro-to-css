@@ -1,0 +1,99 @@
+body {
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+}
+.container {
+	max-width: 50%;
+	box-shadow: 1px 2px 3px rgba(117, 115, 115, 0.493);
+	padding: 2em;
+}
+
+.user__name {
+	font-family: fantasy;
+	font-size: 30px;
+	position: relative;
+	animation: name 5s linear 0s infinite ;
+}
+.user-name__ball {
+	position: absolute;
+	height: 0.8em;
+	width: 1em;
+	border-radius: 50%;
+	background-color: #db9130;
+	top: 50px;
+	animation: ball 1s linear 2s infinite alternate;
+}
+
+@keyframes ball {
+	0% {
+		top: 1px;
+	}
+	100% {
+		bottom: -10px;
+	}
+}
+@keyframes name {
+	0% {
+		color: #6B240C;
+	}
+	25% {
+		color: #994D1C;
+	}
+	50% {
+		color: #E48F45;
+	}
+	75% {
+		color: #F5CCA0;
+	}
+	100% {
+		color: rgb(142, 50, 4);
+	}
+}
+
+.about-user__photoContainer {
+	display: flex;
+	justify-content: center;
+}
+.about-user__photo {
+	max-width: 200px;
+	object-fit: cover;
+}
+.about-user__photo img:hover {
+}
+.user-skills__list {
+	list-style: none;
+}
+
+.skills__list2 {
+	font-weight: bold;
+}
+
+li {
+	text-align: center;
+	color: blue;
+	background-color: #db9130;
+	margin-block: 0.5em;
+	border-radius: 5px;
+	padding: 0.3em;
+}
+
+h3 {
+	text-decoration: underline;
+}
+
+p {
+	padding-block: 20px;
+}
+
+.user-contact {
+	list-style: none;
+}
+.user-contact li {
+	transition: all 250ms ease-in-out;
+	box-shadow: 1px 2px 3px rgba(117, 115, 115, 0.493);
+}
+.user-contact li:hover {
+	background-color: bisque;
+	cursor: pointer;
+}
