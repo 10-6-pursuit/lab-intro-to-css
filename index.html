@@ -2,34 +2,39 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="./style.css">
     <title>CSS Intro</title>
   </head>
   <body>
-    <h1>Your Name Here</h1>
-    <div>
-      <p>
+    <div class="container">
+      <span class="user-name__ball"></span>
+      <h1 class="user__name">Antonio <span class="user-name__span">Mar</span>tinez</h1>
+    <div class="about-user">
+      <p class="about-user__description">
         This is a bunch of information about myself. I'm from here and there and
         discovered my love of programming when this happened. When I'm not
         working I'm busy doing this and that.
       </p>
     </div>
+    <figure class="about-user__photoContainer">
 
-    <img
-      src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-      alt="Blank Avatar Profile Picture"
-    />
+      <img class="about-user__photo"
+        src="https://ca.slack-edge.com/TCVA3PF24-U0640C4HB5L-313b764ada25-512"
+        alt="profile picture"
+      />
+    </figure>
 
-    <div>
-      <h3>Here are some of my Skills!</h3>
-      <ul>
-        <h3>Languages</h3>
+    <div class="user-skills">
+      <h3 class="user-skills__title">Here are some of my Skills!</h3>
+      <ul class="user-skills__list">
+        <h3 class="user-skills__title">Languages</h3>
         <li>JavaScript</li>
         <li>SQL</li>
         <li>HTML5</li>
         <li>CSS3</li>
       </ul>
 
-      <ol>
+      <ol class="user-skills__list2">
         <h3>Libraries</h3>
         <li>React</li>
         <li>PostgreSQL</li>
@@ -53,10 +58,11 @@
       <a href="mailto:hello@pursuit.org" target="_top">hello@pursuit.org</a>
     </div>
 
-    <ul>
+    <ul class="user-contact">
       <li><a href="github.com">github link</a></li>
       <li><a href="linkedin.com">LinkedIn link</a></li>
       <li><a href="angellist.com">Angel list link</a></li>
     </ul>
+    </div>
   </body>
 </html>
