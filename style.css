@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header {
+    font-family: fantasy;
+    color: purple;
+}
+
+img {
+    border-radius:  100%;
+    display: block;
+    width: auto;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.skills__lang, .skills__libraries, .contact {
+    list-style-type: none;
+    font-weight: bold;
+    padding-left: 30px;
+
+    .skills__lang__list, .skills__libraries__list, .contact__link-list {
+        display: block;
+        text-align: center;
+        border: 1px solid red;
+        border-radius: 25px;
+        background-color: lightpink;
+        color: blue;
+    }
+}
+
