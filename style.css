@@ -1,0 +1,77 @@
+h1{
+    font: fantasy;
+    color: purple;
+    font-size: 30px;
+    /* Change One */
+    text-align: center; 
+    
+
+}
+
+ul{
+    list-style: none;
+    padding-left: 30px;
+}
+
+ol{
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+li{
+    text-align: center;
+    border: 1px solid red; 
+    border-radius: 10px;
+    color: blue; 
+    background-color: lightpink;
+    /* change 8 */
+    margin: 10px;
+
+
+}
+
+img{
+    display: block;
+    width: auto;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    /* change 9 */
+    border: 5px solid;
+}
+
+body{
+    font: sans-serif;
+    /* change 2 */
+    color: rgb(77, 75, 75);
+    /* change 5 */
+    background-color: darkgray;
+    /* change 10 */
+    border: 5px solid;
+
+    
+    
+}
+
+h3 {
+    text-decoration: underline; 
+    /* change 4 */
+    text-decoration-style: dotted;
+    /* change 3 */
+    text-align:center
+    
+
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2{
+    /* change 6 */
+    text-align: center;
+    /* change 7 */
+    text-decoration: underline;
+    text-decoration-style: double;
+}
