@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: Bitter;
     h1 {
         font-size: 30px;
     }
@@ -47,9 +49,11 @@ body {
     list-style-type: none;
     font-weight: bold;
     padding-left: 30px;
+    line-height: 1.6;
 
     .skills__lang__item, .skills__libraries__item {
         display: block;
+        margin: 2px;
         text-align: center;
         border: 1px solid red;
         border-radius: 25px;
@@ -57,9 +61,19 @@ body {
         color: blue;
     }
 
-    a:link, a:visited, a:hover, a:active { 
+    a:link, a:visited, a:active { 
         text-decoration: none;
-        color: #A9A9A9;
+        color: #5d5d5d;
+    }
+
+    a:hover {
+        color: darkgrey;
+        background-color: black;
     }
 }
 
+.contact-me {
+    .contact-me__email, .contact-me__mobile {
+        padding: 0;
+    }
+}
