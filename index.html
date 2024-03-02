@@ -18,44 +18,59 @@
       alt="headshot"
     />
 
+    <hr/>
+
     <div class="skills">
       <h3>Here are some of my Skills!</h3>
       <ul class="skills__lang">
         <h3>Languages</h3>
-        <li class="skills__lang__list">JavaScript</li>
-        <li class="skills__lang__list">SQL</li>
-        <li class="skills__lang__list">HTML5</li>
-        <li class="skills__lang__list">CSS3</li>
+        <li class="skills__lang__item">JavaScript</li>
+        <li class="skills__lang__item">SQL</li>
+        <li class="skills__lang__item">HTML5</li>
+        <li class="skills__lang__item">CSS3</li>
+        <li class="skills__lang__item">python</li>
       </ul>
 
       <ol class="skills__libraries">
         <h3>Libraries</h3>
-        <li class="skills__libraries__list">React</li>
-        <li class="skills__libraries__list">PostgreSQL</li>
-        <li class="skills__libraries__list">Node</li>
-        <li class="skills__libraries__list">Bootstrap</li>
+        <li class="skills__libraries__item">React</li>
+        <li class="skills__libraries__item">PostgreSQL</li>
+        <li class="skills__libraries__item">Node</li>
+        <li class="skills__libraries__item">Bootstrap</li>
       </ol>
     </div>
 
-    <div>
-      <h3>Hardest Bug So Far</h3>
-      <p>
-        My hardest bug I ever came across was this infinite loop I couldn't
-        escape.
+    <div class="hardest-bug">
+      <h3 class="hardest-bug__title">Hardest Bug So Far</h3>
+      <p class="hardest-bug__description">
+        The hardest bug I encounter was a little funny. I was working on a research project on the fibonacci sequence. Part of the project was for me to create code that creates the sequence to a certian length. Problem is, when one lining the code, you can only start the sequence with 1, 1. but when you use a regular loop, you can start with 0, 1.
+        
+        I went online to see what I can do so the one-liner can start with 0,1. Turns out, everyone on the internet has a different opinion on it. Some people you have to start with 0, 1 and others say it starts with 1, 1. So istead of fixing the bug, I presented both solutions and got away with it because not even the interent agreed on the solution.
       </p>
-      <p>I came up with a totally sick solution though by doing ...</p>
     </div>
 
-    <h2>Contact Me</h2>
+    <h3>Contact Me</h3>
     <div>
       Email me at:
       <a href="mailto:asayedahmed@pursuit.org" target="_top">asayedahmed@pursuit.org</a>
+      <p class="contact">Phone: +1 (631) 485-7394</p>
     </div>
 
-    <ul class="contact">
-      <li class="contact__link-list"><a href="github.com">github link</a></li>
-      <li class="contact__link-list"><a href="linkedin.com">LinkedIn link</a></li>
-      <li class="contact__link-list"><a href="angellist.com">Angel list link</a></li>
+    <h2 class="links">Check out these links...</h2>
+    <ul class="social-links">
+      <li class="social-links__item">
+        <a href="https://github.com/AbdelSayedahmed" class="social-links__link" target="_blank">GitHub</a>
+      </li>
+      <li class="social-links__item">
+        <a href="https://www.linkedin.com/in/abdelsayedahmed/" class="social-links__link" target="_blank">LinkedIn</a>
+      </li>
+      <li class="social-links__item">
+        <a href="https://pursuit.codetrack.dev/profile" class="social-links__link" target="_blank">CodeTrack</a>
+      </li>
+      <li class="social-links__item">
+        <a href="https://www.pursuit.org/fellowship" class="social-links__link" target="_blank">Pursuit</a>
+      </li>
     </ul>
+    
   </body>
 </html>
