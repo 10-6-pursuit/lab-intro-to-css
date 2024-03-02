@@ -3,60 +3,74 @@
   <head>
     <meta charset="utf-8" />
     <title>CSS Intro</title>
+    <link rel="stylesheet" href="./style.css"/>
   </head>
   <body>
-    <h1>Your Name Here</h1>
-    <div>
-      <p>
-        This is a bunch of information about myself. I'm from here and there and
-        discovered my love of programming when this happened. When I'm not
-        working I'm busy doing this and that.
+    <h1 class="header">Abdel Sayedahmed</h1>
+    <div class="bio">
+      <p class="bio__para">
+        Hello, my name is Abdel. Im a Brooklyn Native. Arabic and English native speaker. I started my programming journey freshmen year of high school, when I joined the robotics class. We programmed little robots we built. Then I moved onto drag and drop coding on snap! By Berkeley and on scratch. After that I learned my first real language, python until the end of high school. Got into college and studies electrical engineering and little bit of code, mainly C++. Alongside that joined pursuit and learned full-stack development. Javascript, css, html, and react.
       </p>
     </div>
 
     <img
-      src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-      alt="Blank Avatar Profile Picture"
+      src="./Headshot.png"
+      alt="headshot"
     />
 
-    <div>
+    <hr/>
+
+    <div class="skills">
       <h3>Here are some of my Skills!</h3>
-      <ul>
+      <ul class="skills__lang">
         <h3>Languages</h3>
-        <li>JavaScript</li>
-        <li>SQL</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
+        <li class="skills__lang__item">JavaScript</li>
+        <li class="skills__lang__item">SQL</li>
+        <li class="skills__lang__item">HTML5</li>
+        <li class="skills__lang__item">CSS3</li>
+        <li class="skills__lang__item">python</li>
       </ul>
 
-      <ol>
+      <ol class="skills__libraries">
         <h3>Libraries</h3>
-        <li>React</li>
-        <li>PostgreSQL</li>
-        <li>Node</li>
-        <li>Bootstrap</li>
+        <li class="skills__libraries__item">React</li>
+        <li class="skills__libraries__item">PostgreSQL</li>
+        <li class="skills__libraries__item">Node</li>
+        <li class="skills__libraries__item">Bootstrap</li>
       </ol>
     </div>
 
-    <div>
-      <h3>Hardest Bug So Far</h3>
-      <p>
-        My hardest bug I ever came across was this infinite loop I couldn't
-        escape.
+    <hr/>
+
+    <div class="hardest-bug">
+      <h3 class="hardest-bug__title">Hardest Bug So Far...</h3>
+      <p class="hardest-bug__description">
+        The hardest bug I encounter was a little funny. I was working on a research project on the fibonacci sequence. Part of the project was for me to create code that creates the sequence to a certian length. Problem is, when one lining the code, you can only start the sequence with 1, 1. but when you use a regular loop, you can start with 0, 1. I went online to see what I can do so the one-liner can start with 0,1. Turns out, everyone on the internet has a different opinion on it. Some people you have to start with 0, 1 and others say it starts with 1, 1. So istead of fixing the bug, I presented both solutions and got away with it because not even the interent agreed on the solution.
       </p>
-      <p>I came up with a totally sick solution though by doing ...</p>
     </div>
 
-    <h2>Contact Me</h2>
-    <div>
-      Email me at:
-      <a href="mailto:hello@pursuit.org" target="_top">hello@pursuit.org</a>
-    </div>
-
-    <ul>
-      <li><a href="github.com">github link</a></li>
-      <li><a href="linkedin.com">LinkedIn link</a></li>
-      <li><a href="angellist.com">Angel list link</a></li>
+    <h3 class="links">Check out these links...</h3>
+    <ul class="social-links">
+      <li class="social-links__item">
+        <a href="https://github.com/AbdelSayedahmed" class="social-links__link" target="_blank">GitHub</a>
+      </li>
+      <li class="social-links__item">
+        <a href="https://www.linkedin.com/in/abdelsayedahmed/" class="social-links__link" target="_blank">LinkedIn</a>
+      </li>
+      <li class="social-links__item">
+        <a href="https://pursuit.codetrack.dev/profile" class="social-links__link" target="_blank">CodeTrack</a>
+      </li>
+      <li class="social-links__item">
+        <a href="https://www.pursuit.org/fellowship" class="social-links__link" target="_blank">Pursuit</a>
+      </li>
     </ul>
+
+    <h3>Contact Me</h3>
+    <div class="contact-me">
+      <p class="contact-me__email">Email me at: <a href="mailto:asayedahmed@pursuit.org" target="_top">asayedahmed@pursuit.org</a>
+      </p>
+      <p class="contact-me__mobile">Phone: <a href="tel:6314857394">+1 (631) 485-7394</a></p>
+    </div>
+    
   </body>
 </html>
