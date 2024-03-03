@@ -26,6 +26,7 @@ li{
     background-color: lightpink;
     /* change 8 */
     margin: 10px;
+    list-style-position: inside;
 
 
 }
