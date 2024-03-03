@@ -10,11 +10,14 @@ h1 {
 
 h3 {
     text-decoration: underline;
+    background-color:aquamarine;
 }
 
 p {
     padding-top: 20px;
     padding-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
 }
 
 ul {
@@ -36,7 +39,6 @@ li {
     background-color: lightpink;
 }
 
-
 .container {
     height: 200px;
     width: 200px; 
@@ -48,4 +50,24 @@ li {
 img {
     width: 100%;
     height: auto;
+}
+
+.gravy {
+    font-size: 25px;
+    color: cornflowerblue;
+    padding-left: 30px;
+    margin: auto;
+}
+
+a {
+    font-family: monospace;
+    color: green;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+.contact {
+    font-family: cursive;
+    color: indigo;
+    background-color: azure;
 }
