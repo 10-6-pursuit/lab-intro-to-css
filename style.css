@@ -1,11 +1,13 @@
 html {
-    background-image: url(https://www.mediastorehouse.com/p/780/amazing-vacation-beach-couple-chairs-sea-banner-33037374.jpg.webp);
+    /* background-image: url(https://www.mediastorehouse.com/p/780/amazing-vacation-beach-couple-chairs-sea-banner-33037374.jpg.webp); */
     height: 500px;
     background-color: #cccccc;
+    background-attachment: fixed;
+    background-position: top center;
     /* width: 100%; */
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-position: center;
+    background-size: cover;
+    /* background-position: center; */
 }
 h1 {
     color: purple; 
@@ -44,4 +46,5 @@ img {
 }
 body {
     font-family: sans-serif;
+
 }
