@@ -2,25 +2,33 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <title>CSS Intro</title>
+    <title>Lynnette's Profile</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Your Name Here</h1>
-    <div>
-      <p>
-        This is a bunch of information about myself. I'm from here and there and
-        discovered my love of programming when this happened. When I'm not
-        working I'm busy doing this and that.
+    <div class="center">
+      <h1 style="display: inline-block;">Lynnette Jacobs</h1>
+      <p id="tag-line">
+        Multifaceted Creative: Visual Artist | Software Developer | Bridging Art & Technology
       </p>
+      <img 
+        id="profile-photo"
+        class="center-page"
+        src="./assets/IMG_1919.jpeg"
+        alt="Profile Picture"
+      />
+      <div id="social-grid" class="center-page">
+        <a href="mailto:jacobs.lynnette@gmail.com" target="_top"><img class="social-icon" src="./assets/542-5421481_com-mail-icon-vector-png-transparent-png.png" alt="Email Icon" title="Send Lynnette An Email"></a>
+        <a target="_blank" href="https://github.com/lynnjaco"><img class="social-icon" src="./assets/github-mark.png" alt="Github Icon" title="Visit Lynnette's GitHub Profile"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/lajacobs/"><img class="social-icon" src="./assets/LI-In-Bug.png" alt="LinkedIn Icon" title="Visit Lynnette's LinkedIn Profile"></a>
+      </div>
     </div>
 
-    <img
-      src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-      alt="Blank Avatar Profile Picture"
-    />
+    <div class="background">
+    <div id="page-break"></div>
 
-    <div>
-      <h3>Here are some of my Skills!</h3>
+    <div class="element-block center-page">
+      <h2>Here Are My Skills!</h2>
       <ul>
         <h3>Languages</h3>
         <li>JavaScript</li>
@@ -38,25 +46,41 @@
       </ol>
     </div>
 
-    <div>
-      <h3>Hardest Bug So Far</h3>
+    <div id="page-break"></div>
+
+    <div class="element-block center-page">
+      <h2>Hardest Bug So Far...</h2>
       <p>
-        My hardest bug I ever came across was this infinite loop I couldn't
-        escape.
+        My most difficult bug to date was ecnountered during the Dinosaur Project. My terminal stopped responding to commands!
       </p>
-      <p>I came up with a totally sick solution though by doing ...</p>
+      <p>After failing to find the solution through my own research, I reached out to my instructors and classmates who helped me realize that my terminal was not malfunctioning; it was simply running an infinite loop. </p>
     </div>
 
-    <h2>Contact Me</h2>
-    <div>
-      Email me at:
-      <a href="mailto:hello@pursuit.org" target="_top">hello@pursuit.org</a>
-    </div>
+    <div id="page-break"></div>
 
-    <ul>
-      <li><a href="github.com">github link</a></li>
-      <li><a href="linkedin.com">LinkedIn link</a></li>
-      <li><a href="angellist.com">Angel list link</a></li>
-    </ul>
+    <div class="element-block center-page">
+      <h2>Let's Connect!</h2>
+      <ul>
+        <li><a href="mailto:jacobs.lynnette@gmail.com" target="_top">Email</a></li>
+        <li><a target="_blank" href="https://github.com/lynnjaco">Github Profile</a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/lajacobs/">LinkedIn Profile</a></li>
+      </ul>
+    </div>
+    <div id="page-break"></div>
+    
+  </div>
+
+  <footer>
+    <div id="page-break"></div>
+    <form class="center" action="mailto:jacobs.lynnette@gmail.com?subject=Profile Message">
+      <p id="message">Contact Form</p>
+      <input class="center-page" type="text" value="Full Name"> <br>
+      <input class="center-page" type="text" value="Email Address"> <br>
+      <input class="center-page" type="text" value="Type Message Here"> <br>
+      <button class="center-page">Send</button> <br>
+    </form>
+    <div id="page-break"></div>
+    <h5>© 2024 Lynnette Jacobs</h5>
+  </footer>
   </body>
 </html>
