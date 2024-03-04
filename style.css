@@ -40,8 +40,10 @@ p {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-ol li::before{
-    content: counter(list-item);
-    
+ol {
+    list-style-position: inside;
+
 }
+
+
 
