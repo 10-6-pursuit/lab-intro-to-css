@@ -1,0 +1,114 @@
+/* Apply a sans-serif font to the entire body */
+body {
+    font-family: sans-serif;
+  }
+  
+  /* Change the font of the h1 (name header) to 'Fantasy', make it purple, and set font size */
+  h1 {
+    font-family: 'Fantasy';
+    color: purple;
+    font-size: 30px;
+  }
+  
+  /* Remove bullet points from unordered lists */
+  ul {
+    list-style-type: none;
+    padding-left: 30px;
+  }
+  
+  /* Change font-weight in ordered lists to bold and add left padding */
+  ol {
+    font-weight: bold;
+    padding-left: 30px;
+  }
+  
+  /* Center all li elements, add a 1px red border with curved corners,
+     change font color to blue, and set background color to light pink */
+  li {
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: blue;
+    background-color: lightpink;
+  }
+  
+  /* Center images and set their height */
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+  }
+  
+  /* Underline all h3 elements */
+  h3 {
+    text-decoration: underline;
+  }
+  
+  /* Add padding to p tags */
+  p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  /* Additional unique styling */
+  /* Increase spacing and improve readability */
+  div {
+    margin-bottom: 20px;
+  }
+  
+  /* Change links color and add hover effect */
+  a {
+    color: darkblue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Enhance visual hierarchy with more distinct styles for h2 and h3 */
+  h2 {
+    color: navy;
+    margin-bottom: 10px;
+  }
+  
+  /* Add a slight shadow to all div containers for depth */
+  div {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  /* Improve form accessibility with larger, clearer labels and inputs */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Add transitions to link colors for a smoother hover effect */
+  a {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Make the body background a soft gradient for a modern look */
+  body {
+    background: linear-gradient(to right, #f0f0f0, #fafafa);
+  }
+  
+  /* Set max width for the body content and center it */
+  body {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Improve visibility and styling of the contact section */
+  h2.contact-me {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
